@@ -62,8 +62,6 @@ node default {
   }
 
   # node versions
-  include nodejs::0-4
-  include nodejs::0-6
   include nodejs::0-8
 
   # default ruby versions
@@ -77,12 +75,9 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'curl',
+      'wget',
     ]:
-  }
-
-  file { "${boxen::config::srcdir}/our-boxen":
-    ensure => link,
-    target => $boxen::config::repodir
   }
 }
