@@ -33,7 +33,7 @@ github "sudo",     "1.0.0"
 github "osx",      "1.0.0"
 github "zsh",      "1.0.0"
 github "autoconf", "1.0.0"
-github "repository", "2.0.0"
+github "repository", "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
