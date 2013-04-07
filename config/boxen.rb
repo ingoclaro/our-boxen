@@ -6,6 +6,7 @@
 
 # Change the repo boxen will use.
 ENV['BOXEN_REPO_NAME'] = 'ingoclaro/boxen'
+ENV['BOXEN_CHECK_HOMEBREW'] = 'no'
 
 # Boxen binary packaging
 # ENV["BOXEN_S3_ACCESS_KEY"] = ''

@@ -54,7 +54,7 @@ node default {
   include git
   include hub
   include nginx
-  include nvm
+  # include nvm
   include bundler
 
   # fail if FDE is not enabled
